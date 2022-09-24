@@ -15,14 +15,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.13</version>
-        </dependency>
-        <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>11.2.1.jre18</version>
+            <version>11.2.1.jre8</version>
         </dependency>
     </dependencies>
 </project>

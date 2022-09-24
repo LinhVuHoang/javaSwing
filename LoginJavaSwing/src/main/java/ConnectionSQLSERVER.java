@@ -4,11 +4,9 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class ConnectionSQLSERVER {
-    private static String DB_URL = "jdbc:sqlserver://localhost:1433;"
-            + "databaseName=swing_demo;"
-            + "integratedSecurity=true";
+    private static String DB_URL = "jdbc:sqlserver://localhost:1433;DatabaseName=swing_demo;instance=SQLSERVER;encrypt=true;TrustServerCertificate=true;";
     private static String USER_NAME = "sa";
-    private static String PASSWORD = "Docker@123";
+    private static String PASSWORD = "12";
 
     /**
      * main
